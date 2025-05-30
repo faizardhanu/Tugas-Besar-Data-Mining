@@ -13,7 +13,7 @@ st.set_page_config(page_title="Diabetes Analysis", layout="centered")
 st.title("🧬 Dashboard Analisis Risiko Diabetes")
 
 # Link dataset dari GitHub (GANTI dengan punyamu)
-DATA_URL = "https://raw.githubusercontent.com/username/repo/main/data/diabetes_prediction_dataset.xlsx"
+DATA_URL = "https://raw.githubusercontent.com/faizardhanu/Tugas-Besar-Data-Mining/main/data/diabetes_prediction_dataset (1).xlsx"
 
 # Coba baca dari upload, jika tidak ada -> fallback ke URL GitHub
 uploaded_file = st.file_uploader("Upload dataset (.xlsx) atau gunakan default:", type=["xlsx"])
